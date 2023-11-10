@@ -1,0 +1,156 @@
+.product {
+  padding: 22px 20px 25px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #C1DFC4 2.25%, #DEECDD 99.84%);
+  color: #475009;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+}
+
+.product:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px 8px rgba(0, 111, 57, 0.40);
+  border-radius: 0 70px;
+}
+
+.product__title {
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin: 0 0 35px;
+}
+
+.product__figure {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 25px;
+}
+
+.product__figure-image {
+  max-width: 228px;
+  width: 100%;
+  min-height: 152px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 130px;
+}
+
+.product__figure-image--count-1 {
+  background-image: url('../../img/skindapsus.jpg');
+}
+
+.product__figure-image--count-2 {
+  background-image: url('../../img/lavr.jpg');
+}
+
+.product__figure-image--count-3 {
+  background-image: url('../../img/bambuk.jpg');
+}
+
+.product__figure-image--count-4 {
+  background-image: url('../../img/dracaena.jpg');
+}
+
+.product__figure-image--count-5 {
+  background-image: url('../../img/palma.jpg');
+}
+
+.product__figure-image--count-6 {
+  background-image: url('../../img/senecio.jpg');
+}
+
+.product__figure-description {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 20px;
+}
+
+.product__wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product__text {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0 25px;
+}
+
+.product__info {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.product__info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin: 0 0 20px;
+}
+
+.product__info-conditions-type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  margin: 0 0 5px;
+}
+
+.product__info-conditions-value {
+  font-size: 12px;
+  line-height: 12px;
+  margin: 0;
+}
+
+.product__info-conditions--align-right {
+  text-align: right;
+}
+
+.product__controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+}
+
+.product__button {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  display: block;
+  max-width: 140px;
+  width: 100%;
+  padding: 13px 5px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.product__button--type-green {
+  color: #475009;
+  border-color: #475009;
+}
+
+.product__button--type-green:hover {
+  background-color: #475009;
+  color: #fff;
+}
+
+.product__button--type-blue {
+  color: #fff;
+  background-color: #502198;
+  border-color: #502198;
+}
+
+.product__button--type-blue:hover {
+  background-color: #fff;
+  color: #502198;
+}

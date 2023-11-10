@@ -6,3 +6,5 @@
 /* Blocks */
 /* ------------------------------------ */
 @import './blocks/page-content.css';
+@import './blocks/products-list.css';
+@import './blocks/product.css';
