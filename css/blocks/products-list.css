@@ -12,3 +12,15 @@
   padding: 88px 0 32px 0;
   grid-template-columns: 1fr;
 }
+
+@media screen and (max-width: 767px) {
+  .products-list {
+    padding: 0 0 30px 0;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .products-list--row {
+    padding: 0 0 30px 0;
+  }
+}
