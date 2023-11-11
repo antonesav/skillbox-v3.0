@@ -1,5 +1,6 @@
 /* Global */
 /* ------------------------------------ */
+@import './global/_vars.css';
 @import './global/reboot.css';
 @import './global/fonts.css';
 
